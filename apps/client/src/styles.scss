@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SegoeUIVariableStaticSmall";
+  src: 
+    url("./assets/font/SegoeUIVariableStaticSmall.ttf") format('truetype'),
+    url("./assets/font/SegoeUIVariableStaticSmallBold.ttf") format('truetype'),
+    url("./assets/font/SegoeUIVariableStaticSmallLight.ttf") format('truetype'),
+    url("./assets/font/SegoeUIVariableStaticSmallSemibold.ttf") format('truetype'),
+    url("./assets/font/SegoeUIVariableStaticSmallSemilight.ttf") format('truetype'),
+    ;
+}
+@font-face {
+  font-family: "SegoeUIVariableStaticText";
+  src: 
+    url("./assets/font/SegoeUIVariableStaticText.ttf") format('truetype'),
+    url("./assets/font/SegoeUIVariableStaticTextBold.ttf") format('truetype'),
+    url("./assets/font/SegoeUIVariableStaticTextLight.ttf") format('truetype'),
+    url("./assets/font/SegoeUIVariableStaticTextSemibold.ttf") format('truetype'),
+    url("./assets/font/SegoeUIVariableStaticTextSemilight.ttf") format('truetype'),
+    ;
+}
+@font-face {
+  font-family: "SegoeUIVariableStaticDisplay";
+  src: 
+    url("./assets/font/SegoeUIVariableStaticDisplay.ttf") format('truetype'),
+    url("./assets/font/SegoeUIVariableStaticDisplayBold.ttf") format('truetype'),
+    url("./assets/font/SegoeUIVariableStaticDisplayLight.ttf") format('truetype'),
+    url("./assets/font/SegoeUIVariableStaticDisplaySemibold.ttf") format('truetype'),
+    url("./assets/font/SegoeUIVariableStaticDisplaySemilight.ttf") format('truetype'),
+    ;
+}
